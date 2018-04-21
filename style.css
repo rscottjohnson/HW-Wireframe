@@ -1,0 +1,112 @@
+/*Your CSS should have styles for each of the following elements:
+   * Body
+     * font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     * color: '#777'
+     * background: '#777'
+     * width: '960px'
+     * font-size: '18px'
+   * Header, Nav, Section, Aside, and Footer
+     * background: '#ebebeb'
+   * Article
+     * color: '#ebebeb',
+     * background: '#777'
+   * h1 and p
+     * color: '#777',
+     * background: '#ebebeb'
+   *The widths of each section should be:
+     * section: 495px*/
+
+/*Reset browser defaults*/
+html, body, header, nav, section, aside, footer, article, h1, p {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #777777;
+    width: 960px;
+    font-size: 18px;
+    align-items: center;
+}
+
+header, nav, section, aside, footer {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+header {
+    padding: 25px 0px 25px 0px;
+    margin: 10px 10px 10px 10px;
+    border: 0px;
+}
+
+nav {
+    padding: 25px 0px 25px 0px;
+    margin: 10px 10px 20px 10px;
+}
+
+section {
+    width: 495px;
+    /*padding: 15px 0px 45px 0px;
+    margin: 20px 0px 20px 0px;*/
+    margin-left: 10px;
+}
+
+article {
+    color: #ebebeb;
+    background-color: #777777;
+}
+
+h1, p {
+    color: #777777;
+    background-color: #ebebeb;
+}
+
+#full-left {
+    background-color: #ebebeb;
+    padding: 30px 10px 20px 10px;
+    margin: 0px 10px 20px 10px;
+    width: 55%;
+    float: left;
+}
+
+#full-left-p {
+    margin: 0px 0px 20px 0px;
+}
+
+#full-right {
+    float: left;
+    width: 351px;
+    height: 228px;
+    padding: 10px 10px 20px 10px;
+    margin: 0px 10px 0px 10px;   
+}
+
+article {
+    background-color: #777777;
+    padding: 15px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#article-p {
+    background-color: #777777;
+    color: #ebebeb;
+    margin: 0px 0px 15px 0px;
+}
+
+.division {
+    background-color: #ebebeb;
+    color: #777777;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+footer {
+    width: 900px;
+    padding: 30px 20px 30px 20px;
+    margin: 10px 10px 10px 10px;
+    clear: both;
+}
